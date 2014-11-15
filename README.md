@@ -1,4 +1,4 @@
-# homebrew-arduino-makefile
+# homebrew-arduino-mk
 
 Homebrew formula for Arduino Makefile
 
@@ -8,13 +8,13 @@ Homebrew formula for Arduino Makefile
 
 ```Bash
 # tap this repository
-$ brew tap sudar/arduino-makefile
+$ brew tap sudar/arduino-mK
 
 # to install the last stable release
-$ brew install arduino-makefile
+$ brew install arduino-mk
 
 # to install the development version
-$ brew install --HEAD arduino-makefile
+$ brew install --HEAD arduino-mk
 ```
 
 ### Using the Arduino Makefile
@@ -22,7 +22,7 @@ $ brew install --HEAD arduino-makefile
 At the end of your `Makefile` set the following:
 
 ```Makefile
-include /usr/local/opt/arduino-makefile/Arduino.mk
+include /usr/local/opt/arduino-mk/Arduino.mk
 ```
 
 ## Information
