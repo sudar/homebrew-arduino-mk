@@ -17,7 +17,7 @@ class ArduinoMk < Formula
     def caveats; <<-EOS.undent
         To use the Arduino-Makefile, please add the following into your per-project Makefile
 
-            include /usr/local/opt/arduino-mk/Arduino.mk
+            include #{opt_prefix}/Arduino.mk
 
         Please visit the Arduino Makefile repository for further information.
         EOS
