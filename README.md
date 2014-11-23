@@ -1,6 +1,6 @@
 # homebrew-arduino-mk
 
-Homebrew formula for Arduino Makefile
+Homebrew formula for [Arduino Makefile](https://github.com/sudar/Arduino-Makefile)
 
 ## Usage
 
@@ -8,7 +8,7 @@ Homebrew formula for Arduino Makefile
 
 ```Bash
 # tap this repository
-$ brew tap sudar/arduino-mK
+$ brew tap sudar/arduino-mk
 
 # to install the last stable release
 $ brew install arduino-mk
@@ -28,4 +28,3 @@ include /usr/local/opt/arduino-mk/Arduino.mk
 ## Information
 
 [Arduino Makefile Repository](https://github.com/sudar/Arduino-Makefile)
-
