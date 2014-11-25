@@ -19,10 +19,14 @@ $ brew install --HEAD arduino-mk
 
 ### Using the Arduino Makefile
 
-At the end of your `Makefile` set the following:
+At the end of your per-project `Makefile` set the following:
 
 ```Makefile
+## on OS X
 include /usr/local/opt/arduino-mk/Arduino.mk
+
+## on Linux using Linuxbrew
+include /path/to/linuxbrew/opt/arduino-mk/Arduino.mk
 ```
 
 ## Information
