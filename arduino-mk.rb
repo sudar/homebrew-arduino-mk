@@ -3,15 +3,14 @@ require 'formula'
 class ArduinoMk < Formula
 
     homepage 'https://github.com/sudar/Arduino-Makefile'
-    url 'https://github.com/sudar/Arduino-Makefile/archive/1.3.4.tar.gz'
-    sha256 '66311654a0fceda7bcfcba3de570040ec13e58619a6200da3ac6240b569195e2'
+    url 'https://github.com/sudar/Arduino-Makefile/archive/1.5.tar.gz'
+    version '1.5'
+    sha1 'f1d6633a45fdd8998c0c97398065ab71a3c83857'
 
     head 'https://github.com/sudar/Arduino-Makefile.git'
 
     def install
-
         prefix.install Dir["*"]
-
     end
 
     def caveats; <<-EOS.undent
@@ -23,4 +22,3 @@ class ArduinoMk < Formula
         EOS
     end
 end
-
