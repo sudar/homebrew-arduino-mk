@@ -18,7 +18,7 @@ class ArduinoMk < Formula
 
             include #{opt_prefix}/Arduino.mk
 
-        Also make sure you have the necessary dependencies installed. Refer to the Requirements section of the Arduino Makefile Readme file athttps://github.com/sudar/Arduino-Makefile#requirements to install the dependencies.
+        Also make sure you have the necessary dependencies installed. Refer to the Requirements section of the Arduino Makefile Readme file at https://github.com/sudar/Arduino-Makefile#requirements to install the dependencies.
         EOS
     end
 end
