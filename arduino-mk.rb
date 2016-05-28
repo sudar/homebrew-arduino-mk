@@ -3,9 +3,9 @@ require 'formula'
 class ArduinoMk < Formula
 
     homepage 'https://github.com/sudar/Arduino-Makefile'
-    url 'https://github.com/sudar/Arduino-Makefile/archive/1.5.tar.gz'
-    version '1.5'
-    sha1 'f1d6633a45fdd8998c0c97398065ab71a3c83857'
+    url 'https://github.com/sudar/Arduino-Makefile/archive/1.5.1.tar.gz'
+    version '1.5.1'
+    sha256 '91a41838685f1f52bf3a7da770f633a76be4b0dd71aea94a484b9827c56315bf'
 
     head 'https://github.com/sudar/Arduino-Makefile.git'
 
