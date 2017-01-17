@@ -5,7 +5,7 @@ class ArduinoMk < Formula
     homepage 'https://github.com/sudar/Arduino-Makefile'
     url 'https://github.com/sudar/Arduino-Makefile/archive/1.5.2.tar.gz'
     version '1.5.2'
-    sha256 '91a41838685f1f52bf3a7da770f633a76be4b0dd71aea94a484b9827c56315bf'
+    sha256 '4473d25a658397affa56cd76283b42fad1700f49dcd120bef2d7e36813401958'
 
     head 'https://github.com/sudar/Arduino-Makefile.git'
 
