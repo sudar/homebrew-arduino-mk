@@ -13,7 +13,7 @@ class ArduinoMk < Formula
         prefix.install Dir["*"]
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS.undent
         To use the Arduino-Makefile, please add the following into your per-project Makefile
 
             include #{opt_prefix}/Arduino.mk
